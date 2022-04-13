@@ -1,0 +1,10 @@
+point.adb:5:09: error: "point" conflicts with declaration at point.ads:3
+point.adb:11:13: error: not type conformant with declaration at point.ads:9
+point.adb:11:13: error: return type does not match
+point.adb:13:23: error: invalid constraint: type has no discriminant
+point.adb:16:20: error: not type conformant with declaration at point.ads:10
+point.adb:16:20: error: too many parameters
+point.adb:16:29: error: missing "is"
+point.adb:18:33: error: invalid operand types for operator "&"
+point.adb:18:51: error: operator for type "Standard.Wide_Wide_String" is not directly visible
+point.adb:18:51: error: add with_clause and use_clause for "System"

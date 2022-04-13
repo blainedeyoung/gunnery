@@ -1,0 +1,169 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCHING_CALLS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U distanceandbearing%b	distanceandbearing.adb	927c4ffa OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W points%s		points.adb		points.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U distanceandbearing%s	distanceandbearing.ads	7e55da70 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W points%s		points.adb		points.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D distanceandbearing.ads  20220408171822 e9419579 distanceandbearing%s
+D distanceandbearing.adb  20220408183758 41357dfb distanceandbearing%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D points.ads		20220408171822 97144f09 points%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [makedandb distanceandbearing 15 13 none]
+G c Z s b [makedandb distanceandbearing 16 13 none]
+G c Z s b [calcdistance distanceandbearing 17 13 none]
+G c Z s b [calcquad distanceandbearing 18 13 none]
+G c Z s b [calcbearing distanceandbearing 19 13 none]
+G c Z s b [printdandb distanceandbearing 20 14 none]
+G c Z s s [dandbDA distanceandbearing 6 9 none]
+G c Z s s [dandbDF distanceandbearing 6 9 none]
+G c Z s s [dandbIP distanceandbearing 6 9 none]
+G r c none [makedandb distanceandbearing 15 13 none] [makepoint points 10 13 none]
+G r s point [makedandb distanceandbearing 16 13 none] [pointIP points 4 9 none]
+G r c none [makedandb distanceandbearing 16 13 none] [makepoint points 10 13 none]
+G r c none [calcbearing distanceandbearing 19 13 none] [makepoint points 10 13 none]
+G r s point [dandbIP distanceandbearing 6 9 none] [pointIP points 4 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r24 2r6 2r45 59r17 60r38
+X 4 a-numeri.ads
+16K13*Numerics 35e17 15|2r10 2r49 59r21 60r42
+21N4*Pi 15|60r51
+X 5 a-nuelfu.ads
+18K22*Elementary_Functions[6|39] 15|2w19 2r58 59r30
+X 6 a-ngelfu.ads
+52V13*Sqrt{float} 15|29s19[5|18]
+131V13*Arcsin{float} 15|59s51[5|18]
+X 12 a-textio.ads
+58K13*Text_IO 725e16 15|1w10 1r28
+506U14*Put_Line 15|84s7 85s7 86s7 87s7 88s7 90s7 91s7
+X 14 distanceandbearing.ads
+3K9*DistanceAndBearing 22l5 22e23 15|5b14 94l5 94t23
+5I12*nonNeg{integer} 10r20 11r16 18r42 19r45 15|8r27 15r27 33r42 34r10 48r45
+. 50r13 53r14 54r16 60r16
+6R9*dandb 13e17 15p13 15r43 16p13 16r40 20p14 20r28 15|7r43 8r11 13r40 15r11
+. 82r28
+8r10*gun{18|4R9} 15|86r27 86r49
+9r10*target{18|4R9} 15|87r30 87r55
+10i10*distance{5I12} 15|88r62
+11i10*quad{5I12}
+12i10*bearing{integer} 15|90r71
+15V13*makeDandB{6R9} 15>23 15>26 15|7b13 11l8 11t17
+15r23 g{18|4R9} 15|7b23 8r21 8r47 8r64 8r83
+15r26 t{18|4R9} 15|7b26 8r24 8r50 8r67 8r86
+16V13*makeDandB{6R9} 16>23 15|13b13 18l8 18t17
+16r23 t{18|4R9} 15|13b23 15r24 15r50 15r67 15r86
+17V13*calcDistance{float} 17>26 17>29 15|8s34 15s34 20b13 31l8 31t20 49s21
+. 52s21
+17r26 g{18|4R9} 15|20b26 21r26 22r26
+17r29 t{18|4R9} 15|20b29 23r26 24r26
+18V13*calcQuad{5I12} 18>22 18>25 15|8s55 15s55 33b13 46l8 46t16 50s34
+18r22 g{18|4R9} 15|33b22 36r23 36r50 38r25 38r52 40r26 40r52 42r25 42r51
+18r25 t{18|4R9} 15|33b25 36r10 36r37 38r13 38r39 40r13 40r40 42r13 42r39
+19V13*calcBearing{5I12} 19>25 19>28 15|8s71 15s71 48b13 80l8 80t19
+19r25 g{18|4R9} 15|48b25 49r34 50r43 51r40
+19r28 t{18|4R9} 15|48b28 49r37 50r46 51r29 52r34
+20U14*printDandB 20>25 15|82b14 92l8 92t18
+20r25 d{6R9} 15|82b25 86r25 86r47 87r28 87r53 88r60 90r69
+X 15 distanceandbearing.adb
+8r7 db{14|6R9} 10r14
+14r7 g{18|4R9} 15r21 15r47 15r64 15r83
+15r7 db{14|6R9} 17r14
+21f7 gx{float} 25r25
+22f7 gy{float} 26r25
+23f7 tx{float} 25r30
+24f7 ty{float} 26r30
+25f7 xOffset{float} 29r24
+26f7 yOffset{float} 29r39
+27f7 distance{float} 29m7 30r14
+34i7 i{14|5I12} 37m10 39m10 41m10 43m10 45r14
+49f7 hyp{float} 58r25
+50i7 quad{14|5I12} 61r12
+51r7 z{18|4R9} 52r37
+52f7 opp{float} 58r21
+53i7 angle{14|5I12} 60m7 63r29 65r30 67r30 69r29
+54i7 bearing{14|5I12} 63m13 65m13 67m13 69m13 79r14
+55f7 oppOverHyp{float} 58m7 59r58
+56f7 arcsin{float} 59m7 60r23
+X 18 points.ads
+1K9*Points 14|1w6 1r18 15|3w6 3r18 18|13e11
+3I12*nonNeg{integer}
+4R9*point 14|8r15 9r18 15r29 16r26 17r32 18r28 19r31 15|7r29 13r26 14r10
+. 20r32 33r28 48r31 51r10 18|8e17
+6i10*x_coord{3I12} 15|21r28 23r28 36r12 36r25 38r15 38r27 40r15 40r28 42r15
+. 42r27 51r31 86r31 87r37
+7i10*y_coord{3I12} 15|22r28 24r28 36r39 36r52 38r41 38r54 40r42 40r54 42r41
+. 42r53 51r42 86r53 87r62
+10V13*makePoint{4R9} 15|51s19
+

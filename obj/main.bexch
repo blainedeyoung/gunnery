@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\GNAT\2021\bin\gunnery\gunnery.gpr
+20220401160352 46b920acbd8a1fa415f8e3fbbcf98ac7
+[BOUND OBJECT FILES]
+C:\GNAT\2021\bin\gunnery\obj\points.o
+C:\GNAT\2021\bin\gunnery\obj\DistanceAndBearing.o
+C:\GNAT\2021\bin\gunnery\obj\units.o
+C:\GNAT\2021\bin\gunnery\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\2021\bin\gunnery\obj\
+-LC:\GNAT\2021\bin\gunnery\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-lm
+-Wl,--stack=0x2000000
